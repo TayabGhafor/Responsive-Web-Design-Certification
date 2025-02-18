@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>
+      <h1>Technical Documentation</h1>
+    </header>
+    <a href="#HTML_and_HTML5" class="nav-link">HTML and HTML5</a>
+    <a href="#CSS_Fundamentals" class="nav-link">CSS Fundamentals</a>
+    <a href="#JavaScript_Basics" class="nav-link">JavaScript Basics</a>
+    <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    <a href="#APIs_and_AJAX" class="nav-link">APIs and AJAX</a>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="HTML_and_HTML5">
+      <header>
+        <h2>HTML and HTML5</h2>
+      </header>
+      <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages.</p>
+      <p>HTML5 introduced new elements like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;nav&gt;</code>, and others that improve the structure of the web.</p>
+      <code>&lt;html&gt;</code>
+      <code>&lt;body&gt;</code>
+      <code>&lt;header&gt;</code>
+      <ul>
+        <li>HTML defines the structure of a webpage.</li>
+        <li>It uses tags to mark up content.</li>
+        <li>HTML5 is the latest version with more functionality.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Fundamentals">
+      <header>
+        <h2>CSS Fundamentals</h2>
+      </header>
+      <p>CSS (Cascading Style Sheets) is used for styling web pages.</p>
+      <p>It defines how HTML elements should be displayed, such as color, layout, and font size.</p>
+      <code>body { color: black; }</code>
+      <code>h1 { font-size: 2em; }</code>
+      <code>ul { list-style-type: none; }</code>
+      <ul>
+        <li>CSS styles the structure created by HTML.</li>
+        <li>It controls layout, positioning, and animations.</li>
+        <li>CSS can be inline, internal, or external.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="JavaScript_Basics">
+      <header>
+        <h2>JavaScript Basics</h2>
+      </header>
+      <p>JavaScript is a programming language that enables interactive web pages.</p>
+      <p>It allows for dynamic content and user interaction.</p>
+      <code>console.log("Hello, world!");</code>
+      <code>let x = 10;</code>
+      <code>function myFunction() { return true; }</code>
+      <ul>
+        <li>JavaScript is essential for interactivity on webpages.</li>
+        <li>It runs in the browser.</li>
+        <li>JavaScript is event-driven and asynchronous.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+      <header>
+        <h2>Responsive Design</h2>
+      </header>
+      <p>Responsive design ensures that web pages look good on all devices.</p>
+      <p>It uses CSS media queries to adjust the layout based on screen size.</p>
+      <code>@media screen and (max-width: 600px) { ... }</code>
+      <code>body { font-size: 16px; }</code>
+      <code>img { width: 100%; height: auto; }</code>
+      <ul>
+        <li>Responsive design adapts to different screen sizes.</li>
+        <li>Media queries are essential for mobile-first design.</li>
+        <li>Flexbox and grid systems are useful for layout.</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="APIs_and_AJAX">
+      <header>
+        <h2>APIs and AJAX</h2>
+      </header>
+      <p>APIs (Application Programming Interfaces) allow different software systems to communicate.</p>
+      <p>AJAX (Asynchronous JavaScript and XML) allows updating parts of a web page without reloading.</p>
+      <code>fetch('https://api.example.com/data');</code>
+      <code>let response = await fetch('https://api.example.com');</code>
+      <code>let jsonData = await response.json();</code>
+      <ul>
+        <li>APIs are used to request data from servers.</li>
+        <li>AJAX improves user experience by loading data asynchronously.</li>
+        <li>JSON is a common data format for APIs.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
